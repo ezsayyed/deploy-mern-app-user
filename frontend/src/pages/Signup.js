@@ -32,7 +32,7 @@ function Signup() {
           
         }
       try{
-        const url = "https://deploy-mern-app-user-ovpx.vercel.app//auth/signup";
+        const url = "https://deploy-mern-app-user-ovpx.vercel.app/auth/signup";
         console.log(url);
         const response = await fetch(url, {
           method: "POST",
