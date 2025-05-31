@@ -24,7 +24,7 @@ function Home(){
   }
  const fetchProducts = async () =>{
   try{
-    const url = "https://deploy-mern-app-user-ovpx.vercel.app//products";
+    const url = "https://deploy-mern-app-user-ovpx.vercel.app/products";
     const headers ={
       headers:{
         'authorization': localStorage.getItem('token')
